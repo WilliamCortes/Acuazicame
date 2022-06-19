@@ -159,7 +159,7 @@ export const Contact = (props) => {
           <p>
             &copy; 2022 Hecho con ❤️ por {' '}
             <a href='https://williamcortes.github.io/' target='_blank' rel='nofollow'>
-            WillIam
+            Will I'm
             </a>
           </p>
         </div>
