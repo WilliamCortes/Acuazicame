@@ -5,7 +5,7 @@ import axios from 'axios';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 dotenv.config();
 
@@ -13,11 +13,7 @@ axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3000";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <Switch>
-        <Route exact path="*" component={App} />
-      </Switch>
-    </Router>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

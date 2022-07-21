@@ -66,7 +66,7 @@ export const Contact = (props) => {
                         name='name'
                         value={name}
                         className='form-control'
-                        placeholder='Name'
+                        placeholder='Nombre'
                         required
                         onChange={handleChange}
                       />

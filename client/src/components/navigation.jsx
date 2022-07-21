@@ -18,8 +18,8 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' style={{color:'blue'}}  href='#page-top'>
-          ACUAZICAME{'   '}
-          <img src={logo} style={{display:'inline'}} width={30} alt='logo' />
+          <img src={logo} style={{display:'inline', marginRight:30}} width={40} alt='logo' />
+          {`     ACUAZICAME `}
           </a>{' '}
         </div>
 
@@ -35,7 +35,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#team' style={{color:'blue'}}  className='page-scroll'>
+              <a href='#directive' style={{color:'blue'}}  className='page-scroll'>
               Organigrama
               </a>
             </li>
@@ -47,6 +47,11 @@ export const Navigation = (props) => {
             <li>
               <a href='#features' style={{color:'blue'}} className='page-scroll'>
               Documentos de interés
+              </a>
+            </li>
+            <li>
+              <a href='https://www.mivereda.com/search.html' target='_blanck' style={{color:'blue'}} className='page-scroll text-center'>
+              Consulta y paga<br/> tu factura
               </a>
             </li>
           </ul>

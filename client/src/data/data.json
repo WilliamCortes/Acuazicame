@@ -20,49 +20,49 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Bocatoma",
+      "largeImage": "img/portfolio/bocatoma.jpg",
+      "smallImage": "img/portfolio/bocatoma.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Desarenizador",
+      "largeImage": "img/portfolio/desarenizador.jpg",
+      "smallImage": "img/portfolio/desarenizador.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Planta",
+      "largeImage": "img/portfolio/planta.jpg",
+      "smallImage": "img/portfolio/planta.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Tuberia",
+      "largeImage": "img/portfolio/tubos.jpg",
+      "smallImage": "img/portfolio/tubos.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Bocatoma",
+      "largeImage": "img/portfolio/bocatoma.jpg",
+      "smallImage": "img/portfolio/bocatoma.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Desarenizador",
+      "largeImage": "img/portfolio/desarenizador.jpg",
+      "smallImage": "img/portfolio/desarenizador.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Planta",
+      "largeImage": "img/portfolio/planta.jpg",
+      "smallImage": "img/portfolio/planta.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Tuberia",
+      "largeImage": "img/portfolio/tubos.jpg",
+      "smallImage": "img/portfolio/tubos.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Planta",
+      "largeImage": "img/portfolio/planta.jpg",
+      "smallImage": "img/portfolio/planta.jpg"
     }
   ],
   "Services": [
@@ -129,26 +129,56 @@
       "name": "Johnathan Doe"
     }
   ],
+  "Directive": {
+    "img": "img/team/directiva.jpg",
+    "paragraph": "El 19 de marzo de 2022 en la asamblea ordinaria de delegados se realizó la elección de la junta directiva para el periodo 2022 - 2024.",
+    "Why": [
+      "José Humberto Navarrete Roa",
+      "Abelardo Robayo Morales",
+      "Ana Elvia Galvis Urbano",
+      "Doris Vivas",
+      "Noralba Garzón Molina",
+      "Maria Odilia Suarez",
+      "María Luz Gerrero Moreno",
+      "David Manzanares Díaz",
+      "Armando Huerta Caviedes",
+      "Hermen Danilo Romero Muñoz",
+      "Jorge Luis Toscano"
+    ],
+    "Why2": [
+      "Presidente",
+      "Vicepresidente",
+      "Tesorera",
+      "Secretaria",
+      "Vocal Principal",
+      "Vocal Principal",
+      "Vocal Principal",
+      "Vocal Suplente",
+      "Vocal Suplente",
+      "Vocal Suplente",
+      "Fiscal"
+    ]
+  },
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/wheymar.jpg",
+      "name": "Wheymar Hernán Prieto Ibañez",
+      "job": "Operador de planta y redes"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/orlando.jpg",
+      "name": "Orlando González Ovalle",
+      "job": "Operador de redes"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/julio.jpg",
+      "name": "Julio Enrique Torres Caviedes",
+      "job": "Operador de redes"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/luis.jpg",
+      "name": "Luis Esteban Caicedo Narvaez",
+      "job": "Operador de planta y redes"
     }
   ],
   "Contact": {
@@ -161,23 +191,51 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "rute":"/statutes",
+      "title": "Estatutos",
+      "text": "La asociación de usuarios del acueducto regional Zipacón, Cachipay, La Mesa acuerda regirse por los presentes estatutos."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-file-text-o",
+      "rute":"/ccu",
+      "title": "CCU",
+      "text": "Contrato de Condiciones Uniformes."
+    },
+    {
+      "icon": "fa fa-file-text-o",
+      "rute":"/pueaa",
+      "title": "PUEAA",
+      "text": "Programa de uso y ahorro eficiente del agua."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "rute":"/concession",
+      "title": "Concesión de Aguas",
+      "text": "Resolución 730 del 6 de marzo de 2012 por la cual se otorga la concesión de aguas siperficiales."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-file-text-o",
+      "rute":"/network",
+      "title": "Catastro de redes",
+      "text": "Infraestrura en redes del acueducto."
+    },
+    {
+      "icon": "fa fa-file-text-o",
+      "rute":"/rups",
+      "title": "Rups",
+      "text": "."
+    },
+    {
+      "icon": "fa fa-file-text-o",
+      "rute":"/",
+      "title": "Estudio",
+      "text": "."
+    },
+    {
+      "icon": "fa fa-file-text-o",
+      "rute":"/rates",
+      "title": "Estudio de Costos y Tarifas",
+      "text": "Estudio de costos y tarifas de acuerdo a la resolución CRA 825 de 2017."
     }
   ]
 }
